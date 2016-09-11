@@ -191,7 +191,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('http://git.oschina.net/uploads/60/816160_phper95.png?1473561793');
+    background-image:url('../image/phper95.png');
     background-size: 120%;
     background-position:center;
     border-radius:50%;
