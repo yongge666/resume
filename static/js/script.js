@@ -29,6 +29,7 @@ jQuery(document).ready(function($) {
             $('#loading').hide();
         }
     }
+    //var w = $('#main').width();
     $(".left-label").attr('contenteditable', 'true');
     $(".label-value").attr('contenteditable', 'true');
     $(".info-title").attr('contenteditable', 'true');

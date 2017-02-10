@@ -318,6 +318,9 @@ progress::-moz-progress-value {
     display: inline-block;
     width: 120px;
 }
+.label-value-long{
+    word-break: break-all;
+}
 
 .portrait {
     margin: 0 auto;
@@ -344,7 +347,7 @@ progress::-moz-progress-value {
 
 .side {
     position: absolute;
-    width: 360px;
+    width: 33%;
     height: 100%;
     background-color: whitesmoke;
     padding-left: 20px;
@@ -352,9 +355,9 @@ progress::-moz-progress-value {
 }
 
 .main {
-    
+    width:67%;
     position: relative;;
-    margin-left: 360px;
+    margin-left: 33%;
     min-height: 100%;
     padding: 20px;
 
