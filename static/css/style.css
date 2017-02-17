@@ -323,9 +323,7 @@ progress::-moz-progress-value {
 }
 
 .portrait {
-    margin: 0 auto;
-    margin-top:20px;
-    margin-bottom: 10px;
+    margin: 20px auto 10px auto;
     background-image:url('../image/phper95.png');
     background-size: 120%;
     background-position:center;
