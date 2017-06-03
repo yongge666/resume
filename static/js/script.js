@@ -2,7 +2,7 @@
 $(document).ready(function($){
     $("*").removeAttr('contenteditable');  
 		return false;
-})
+});
 if (!String.prototype.format) {
   String.prototype.format = function() {
     var args = arguments;
@@ -17,6 +17,19 @@ if (!String.prototype.format) {
 
 
 jQuery(document).ready(function($) {
+    //监听加载状态改变
+    /**
+     * loading效果
+     */
+    document.onreadystatechange = completeLoading;
+
+    //加载状态为complete时移除loading效果
+    function completeLoading() {
+        if (document.readyState == "complete") {
+            $('#loading').hide();
+        }
+    }
+    //var w = $('#main').width();
     $(".left-label").attr('contenteditable', 'true');
     $(".label-value").attr('contenteditable', 'true');
     $(".info-title").attr('contenteditable', 'true');
